@@ -276,7 +276,10 @@
     font-size: 2rem;
   }
 
-
+  .contact-form input[type="submit"] {
+    
+    padding: 30px 20px;
+  }
 
 
 
@@ -389,6 +392,9 @@ font-size: 2rem;
   margin-top: 25%;
   height: 120%;
 }
-
+.contact-form input[type="submit"] {
+    
+  padding: 30px 20px;
+}
 
 }
