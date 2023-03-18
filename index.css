@@ -381,6 +381,10 @@
   header .nav-right.open a {
     font-size: 2rem;
   }
+
+  .containerthebutton .thebutton {
+    margin-right: 8px;
+  }
   #section3{
     height: 200%;
   }
@@ -579,11 +583,9 @@ header .nav-right.open a {
   height: 140%;
 }
 
-    .containerthebutton{
-      width: 300px;
-    }
-    .thebutton{
-      width: 120px;
+    
+    .containerthebutton .thebutton {
+      margin-right: 8px;
     }
 
 
