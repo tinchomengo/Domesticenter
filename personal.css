@@ -134,7 +134,7 @@
       }
 
 
-      @media (max-width: 768px) {
+    @media (min-height:670px) and (max-width: 768px) {
 
 
       header ul li{
@@ -255,6 +255,113 @@
 
 
 
- @media screen and (max-width: 480px) {
-    
-  }
+ @media (max-height:670px) and (max-width: 768px){
+  header ul li{
+    display: none;
+}
+
+header .logo img{
+    width: 10vw;
+    height: 25%;
+    margin: 0 auto;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+.hamburger {
+display: block;
+position: fixed;
+top: 0;
+right: 0;
+margin-top: 5%;
+padding: 1rem;
+z-index: 9999;
+color: #fff;
+}
+
+.hamburger span {
+display: block;
+width: 30px;
+height: 3px;
+background-color: #ffffff;
+margin: 5px auto;
+transition: all 0.3s ease-in-out;
+}
+
+/* Rotate the first and the third span */
+.hamburger span:first-child {
+transform-origin: top left;
+}
+
+.hamburger span:nth-child(2) {
+opacity: 1;
+}
+
+.hamburger span:last-child {
+transform-origin: bottom left;
+}
+
+/* Show the list when the hamburger menu is clicked */
+.hamburger.open span:first-child {
+transform: rotate(45deg) translate(7px, -7px);
+}
+
+.hamburger.open span:nth-child(2) {
+opacity: 0;
+}
+
+.hamburger.open span:last-child {
+transform: rotate(-45deg) translate(7px, 7px);
+transform-origin: bottom left;
+}
+/*
+header .nav-right {
+display: none;
+}
+*/
+header .nav-right.open {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: fixed;
+margin-left: 0px;
+top: 0;
+left: 0;
+width: 101%;
+height: 101%;
+background: linear-gradient(to right, rgb(5, 12, 116), rgb(23, 32, 158), rgb(53, 61, 163), rgb(204, 104, 79));
+z-index: 10000;
+}
+
+header .nav-right.open ul {
+width: 100%;
+list-style-type: none;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-top: 4rem;
+}
+
+header .nav-right.open .titulos {
+padding-left: 15%;
+}
+
+header .nav-right.open li {
+display: block;
+margin-bottom: 2rem;
+}
+
+header .nav-right.open a {
+font-size: 2rem;
+} 
+.group{
+  height: 220%;
+  padding-top: 30%;
+  font-size: 80%;
+}
+.group a{
+  font-size: 80%;
+}
+}

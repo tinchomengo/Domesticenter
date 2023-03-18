@@ -22,7 +22,7 @@ leftButton.addEventListener("click", () => {
 });
 
 rightButton.addEventListener("click", () => {
-  if (currentSlide < 5) {
+  if (currentSlide < 6) {
     currentSlide++;
     carousel.style.transform = `translateX(-${currentSlide * 371}px)`;
   }
