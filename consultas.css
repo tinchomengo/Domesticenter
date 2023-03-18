@@ -275,13 +275,19 @@
   header .nav-right.open a {
     font-size: 2rem;
   }
-
+  .contact-form{
+    padding-top: 120px;
+  }
   .contact-form input[type="submit"] {
     
     padding: 30px 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
-
+  footer{
+    padding-top: 70px;
+  }
 
 }
 
@@ -389,12 +395,18 @@ font-size: 2rem;
 }
 
 .main2{
-  margin-top: 25%;
-  height: 120%;
+  margin-top: 70px;
+  height: 150%;
+}
+.contact-form{
+  padding-top: 100px;
+  padding-bottom: 60px;
 }
 .contact-form input[type="submit"] {
     
   padding: 30px 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 }
