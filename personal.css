@@ -253,6 +253,9 @@
   .content {
     margin-top: 10px;
   }
+  .group a{
+    font-size: 18px;
+  }
 
  } 
 
@@ -359,14 +362,17 @@ margin-bottom: 2rem;
 header .nav-right.open a {
 font-size: 2rem;
 } 
-.group{
-  height: 1200px;
-  padding-top: 100px;
-  font-size: 14px;
+.group {
   overflow: hidden;
-
+  flex-direction: column;
+  height: 1300px;
+  margin-top: 120px;
+  font-size: 14px;
+}
+.content {
+  margin-top: 10px;
 }
 .group a{
-  font-size: 14px;
+  font-size: 18px;
 }
 }
