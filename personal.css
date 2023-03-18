@@ -248,7 +248,7 @@
     flex-direction: column;
     height: 1300px;
     margin-top: 120px;
-    font-size: 15px;
+    font-size: 14px;
   }
   .content {
     margin-top: 10px;
@@ -367,6 +367,6 @@ font-size: 2rem;
 
 }
 .group a{
-  font-size: 80%;
+  font-size: 14px;
 }
 }
