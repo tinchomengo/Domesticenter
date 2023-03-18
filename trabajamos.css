@@ -236,6 +236,8 @@
   }
   .group {
     flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
   }
   .content {
     margin-top: 10px;
@@ -345,7 +347,9 @@ header .nav-right.open a {
 font-size: 2rem;
 } 
 .group{
-  height: 200%;
-  padding-top: 30%;
+  height: 1200px;
+  padding-top: 80px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 }
