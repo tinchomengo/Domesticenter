@@ -382,6 +382,13 @@
     font-size: 2rem;
   }
 
+  #section1 .content{
+    padding-top: 10px;
+  }
+  #section1 .content p{
+    font-size: 20px;
+  }
+
   .containerthebutton .thebutton {
     margin-right: 8px;
   }
@@ -537,10 +544,10 @@ header .nav-right.open a {
   font-size: 2rem;
 }
 #section1 .content{
-  padding-top: 40%;
+  padding-top: 100px;
 }
 #section1 .content p{
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 #section1 .content .containerthebutton a{
   font-size: 0.9rem;
