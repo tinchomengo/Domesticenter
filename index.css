@@ -265,16 +265,7 @@
 
   }
   @media (min-height:670px) and (max-width: 768px) {
-    #section3{
-      background-image: url('static/im3.jpg');
-    background-size: cover;
-    background-position: center;
-    }
-    #section2{
-      background-image: url('static/im4.jpg');
-    background-size: cover;
-    background-position: center;
-    }
+    
 
     section .content {
         max-width: 90%;
