@@ -246,7 +246,7 @@
   }
   
 
-  @media (min-width: 768px) and (max-width: 1318px) {
+  @media screen and (min-width: 768px) and (max-width: 1318px) {
     #section3 .container {
       display: flex;
       flex-wrap: wrap;
@@ -264,7 +264,7 @@
     }
 
   }
-  @media (min-height:670px) and (max-width: 768px) {
+  @media screen and (min-height:670px) and (max-width: 768px) {
     
 
     section .content {
@@ -427,7 +427,7 @@
   }
   }
 
-  @media (max-height:670px) and (max-width: 768px){
+  @media screen and (max-height:670px) and (max-width: 768px){
 
     section .content {
       max-width: 90%;
