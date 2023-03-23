@@ -94,14 +94,14 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 110%;
+        height: 1000px;
         background-image: url(static/newback4.jpg);
         background-size: cover;
       }
       
       
       .contact-form {
-        margin: 250px auto auto auto;
+        margin: 180px auto auto auto;
         max-width: 600px;
         padding: 30px;
         
@@ -276,7 +276,7 @@
     font-size: 2rem;
   }
   .main2{
-    height: 1300px;
+    height: 1200px;
   }
   .contact-form{
     padding-top: 120px;
