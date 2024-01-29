@@ -10,7 +10,7 @@ document.querySelector(".hamburger").addEventListener("click", function () {
 const carousel = document.querySelector(".carousel");
 const leftButton = document.querySelector(".left");
 const rightButton = document.querySelector(".right");
-const carouselWidth = carousel.offsetWidth;
+//const carouselWidth = carousel.offsetWidth;
 
 let currentSlide = 0;
 
@@ -27,3 +27,7 @@ rightButton.addEventListener("click", () => {
     carousel.style.transform = `translateX(-${currentSlide * 371}px)`;
   }
 });
+
+function toggleExpansion(element) {
+  element.classList.toggle("expanded");
+}

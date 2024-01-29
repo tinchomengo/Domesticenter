@@ -143,7 +143,6 @@
     section .content .content-wrapper img {
       width: 40%;
     }
-
     .containerthebutton {
 			display: flex;
 			justify-content: center;
@@ -168,8 +167,67 @@
     .thebutton:hover {
       transform: translateY(-3px); /* Optional hover effect */
     }
-    
-    
+    .containerButt {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+  }
+
+  .rectangleButt {
+      position: relative;
+      width: 150px;
+      height: 60px;
+      background: linear-gradient(to right, rgb(5, 12, 116), rgb(204, 104, 79));
+      border-radius: 10px;
+      text-align: center;
+      line-height: 59px;
+      color: white;
+      font-weight: bold;
+      margin-right: 20px;
+      cursor: pointer;
+      transition: height 0.3s ease-out;
+  }
+
+
+  .rectangleButt.expanded {
+      height: 70px;
+      border-radius: 10px 10px 0px 0px;
+  }
+
+  .labelsButt {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: linear-gradient(to right, rgb(5, 12, 116), rgb(204, 104, 79));
+      border-radius: 0 0 10px 10px;
+      overflow: hidden;
+      height: 0;
+      transition: height 0.3s ease-out;
+  }
+
+  .rectangleButt.expanded .labelsButt {
+    height: auto;
+}
+
+  a.labelButt {
+
+      padding: 10px;
+      font-size: 14px;
+      width: 100%;
+      height: 60px;
+      text-align: center;
+      line-height: 59px;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      backdrop-filter: blur(100px);
+      cursor: pointer;
+  }
+
+
     #section1 {
     background-image: url('static/im1.jpg');
     background-size: cover;
